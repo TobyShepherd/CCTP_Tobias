@@ -1,0 +1,605 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1658260754803376, "dur": 3964816, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1658260754804511, "dur": 23649, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1658260754828297, "dur": 42629, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1658260754870946, "dur": 271081, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1658260755142028, "dur": 3615883, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1658260758757929, "dur": 10262, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1658260768055669, "dur": 1082132, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1658260768055917, "dur": 16119, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1658260768072037, "dur": 32735, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1658260768104773, "dur": 498621, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1658260768603396, "dur": 520152, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1658260769123549, "dur": 14252, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1658260769138044, "dur": 18, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1658260768469863, "dur": 123480, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1658260768470707, "dur": 33978, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1658260768580740, "dur": 4048, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1658260768584790, "dur": 8549, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1658260768585321, "dur": 7612, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1658260768596864, "dur": 1028, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1658260768596206, "dur": 1700, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1658260769138133, "dur": 85, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1658260768640107, "dur":715, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658260768640828, "dur":36, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1658260768640872, "dur":12, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1658260768640886, "dur":788, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1658260768641700, "dur":451, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658260768642151, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658260769114054, "dur":565, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658260769114619, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658260769114634, "dur":67, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658260769114701, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658260769114711, "dur":22, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658260769114733, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658260769114740, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658260769114742, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658260769114748, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658260769114750, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658260769114757, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658260769114759, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658260769114765, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658260769114767, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658260769114773, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658260769114776, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658260769114781, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658260769114784, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658260769114789, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658260769114791, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658260769114797, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658260769114799, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658260769114805, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658260769114807, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658260769114813, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658260769114814, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658260769114820, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658260769114822, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658260769114828, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658260769114829, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658260769114835, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658260769114837, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658260769114842, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658260769114844, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658260769114849, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658260769114851, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658260769114857, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658260769114858, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658260769114864, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658260769114865, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658260769114871, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658260769114873, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658260769114879, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658260769114880, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658260769114886, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658260769114888, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658260769114893, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658260769114895, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658260769114902, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658260769114911, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658260769114915, "dur":835, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1658260768642019, "dur":139, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658260768642161, "dur":3495, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658260768645691, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1658260768645698, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658260768646836, "dur":325, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1658260768647164, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1658260768647185, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658260768647437, "dur":7692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1658260768655133, "dur":80448, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658260768735585, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658260768735593, "dur":35837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658260768771444, "dur":42601, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658260768814049, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658260768814054, "dur":1598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658260768815668, "dur":24465, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658260768840137, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658260768840144, "dur":555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658260768840710, "dur":49951, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658260768890665, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658260768890671, "dur":1827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658260768892509, "dur":26246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658260768918760, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658260768918768, "dur":636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658260768919415, "dur":86222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658260769005642, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658260769005652, "dur":957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658260769006623, "dur":107465, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658260768642061, "dur":104, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658260768642166, "dur":3496, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658260768645671, "dur":32316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1658260768677994, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658260768678306, "dur":58132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1658260768736497, "dur":29887, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658260768766387, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658260768766392, "dur":6981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658260768773390, "dur":39324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658260768812739, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658260768812746, "dur":611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658260768813370, "dur":34174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658260768847548, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658260768847556, "dur":620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658260768848190, "dur":72331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658260768921762, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658260768921772, "dur":759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658260768922544, "dur":79105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658260769001655, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658260769001664, "dur":974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658260769002646, "dur":111429, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658260768642051, "dur":111, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658260768642162, "dur":3505, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658260768645672, "dur":13841, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1658260768659517, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658260768659535, "dur":1160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1658260768660763, "dur":75170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658260768735940, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658260768735952, "dur":36639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658260768772608, "dur":43586, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658260768816198, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658260768816205, "dur":868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658260768817084, "dur":24232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658260768841319, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658260768841327, "dur":1068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658260768842408, "dur":31363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658260768873778, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658260768873790, "dur":2155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658260768875960, "dur":24884, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658260768900851, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658260768900862, "dur":742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658260768901617, "dur":40118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658260768941740, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658260768941749, "dur":557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658260768942316, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1658260768942388, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658260768942522, "dur":505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1658260768943037, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1658260768943053, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658260768943070, "dur":794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1658260768943874, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1658260768943888, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658260768943894, "dur":1137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1658260768945042, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1658260768945057, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658260768945061, "dur":1153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1658260768946225, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1658260768946303, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658260768946308, "dur":516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1658260768946835, "dur":4306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1658260768951145, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658260768951151, "dur":1208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1658260768952368, "dur":161693, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658260768642092, "dur":77, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658260768642169, "dur":3515, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658260768645688, "dur":460, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1658260768646151, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658260768647881, "dur":186657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1658260768834593, "dur":21467, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658260768856064, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658260768856071, "dur":551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658260768856633, "dur":156807, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658260769013445, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658260769013453, "dur":729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658260769014190, "dur":99895, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658260768642130, "dur":44, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658260768642174, "dur":3496, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658260768645671, "dur":9909, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1658260768655586, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658260768655637, "dur":616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1658260768656298, "dur":19028, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658260768675331, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658260768675589, "dur":60738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658260768736346, "dur":16764, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658260768753115, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658260768753123, "dur":20052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658260768773189, "dur":37605, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658260768810801, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658260768810816, "dur":1212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658260768812039, "dur":33562, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658260768845608, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658260768845621, "dur":869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658260768846505, "dur":24169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658260768870678, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658260768870684, "dur":601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658260768871296, "dur":39514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658260768910816, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658260768910827, "dur":643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658260768911483, "dur":97586, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658260769009072, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658260769009079, "dur":1120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658260769010208, "dur":103883, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658260768642160, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658260768642161, "dur":3504, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658260768645673, "dur":945, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1658260768646621, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658260768648322, "dur":13968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1658260768662348, "dur":20139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658260768682495, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658260768682510, "dur":87413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658260768769962, "dur":43993, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658260768813958, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658260768813964, "dur":1487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658260768815464, "dur":73811, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658260768889298, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658260768889305, "dur":1174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658260768890488, "dur":69047, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658260768959540, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658260768959550, "dur":859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658260768960423, "dur":153644, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658260768642192, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658260768642192, "dur":3491, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658260768645684, "dur":18162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1658260768663850, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658260768663873, "dur":72678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1658260768736619, "dur":38042, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658260768774667, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658260768774679, "dur":924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658260768775622, "dur":35151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658260768810783, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658260768810797, "dur":1439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658260768812248, "dur":24320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658260768836573, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658260768836583, "dur":637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658260768837232, "dur":29850, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658260768867087, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658260768867097, "dur":860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658260768867976, "dur":86653, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658260768954635, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658260768954647, "dur":1660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658260768956321, "dur":157752, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658260768642223, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658260768642223, "dur":3449, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658260768645673, "dur":1751, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1658260768647427, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658260768648061, "dur":168504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1658260768816622, "dur":25051, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658260768841677, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658260768841684, "dur":2282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658260768843977, "dur":35867, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658260768879849, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658260768879857, "dur":720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658260768880590, "dur":58848, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658260768939444, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658260768939456, "dur":1158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658260768940628, "dur":71696, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658260769012328, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658260769012337, "dur":624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658260769012971, "dur":101111, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1658260768642251, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1658260768642251, "dur":3424, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1658260768645691, "dur":347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1658260768646042, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1658260768648206, "dur":10512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1658260768658792, "dur":77029, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1658260768735824, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1658260768735830, "dur":37271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1658260768773119, "dur":38523, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1658260768811650, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1658260768811663, "dur":915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1658260768812590, "dur":25357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1658260768837954, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1658260768837968, "dur":669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1658260768838649, "dur":37289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1658260768875941, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1658260768875973, "dur":560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1658260768876543, "dur":1231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1658260768877777, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1658260768877783, "dur":618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1658260768878411, "dur":166347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":9, "ts":1658260769044762, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1658260769044769, "dur":1925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":9, "ts":1658260769046702, "dur":67353, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1658260768642273, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1658260768642274, "dur":3428, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1658260768645703, "dur":136398, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1658260768782107, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1658260768782116, "dur":18115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1658260768800323, "dur":34496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1658260768834824, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1658260768834921, "dur":613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1658260768835547, "dur":88277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1658260768923831, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1658260768923842, "dur":1493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1658260768925349, "dur":185882, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":10, "ts":1658260769111235, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1658260769111244, "dur":2741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":10, "ts":1658260769113995, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":10, "ts":1658260769113997, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1658260768642297, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1658260768642297, "dur":3402, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1658260768645703, "dur":89874, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1658260768735583, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1658260768735898, "dur":35627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1658260768771676, "dur":56755, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1658260768828435, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1658260768828442, "dur":631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1658260768829083, "dur":25959, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1658260768855046, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1658260768855054, "dur":567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1658260768855633, "dur":67814, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1658260768923450, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1658260768923458, "dur":931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1658260768924402, "dur":36864, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":11, "ts":1658260768961273, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1658260768961285, "dur":872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":11, "ts":1658260768962169, "dur":151900, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1658260768642322, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1658260768642323, "dur":3372, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1658260768645699, "dur":1226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":12, "ts":1658260768646929, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1658260768647573, "dur":14608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":12, "ts":1658260768662239, "dur":73471, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1658260768735713, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1658260768735721, "dur":36901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1658260768772638, "dur":54194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1658260768826836, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1658260768826843, "dur":1572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1658260768828425, "dur":35277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":12, "ts":1658260768863705, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1658260768863712, "dur":1097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":12, "ts":1658260768864822, "dur":24835, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":12, "ts":1658260768889661, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1658260768889667, "dur":534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":12, "ts":1658260768890217, "dur":105689, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":12, "ts":1658260768995914, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1658260768995927, "dur":1275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":12, "ts":1658260768997219, "dur":116858, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1658260768642354, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1658260768642354, "dur":3325, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1658260768645680, "dur":14094, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":13, "ts":1658260768659778, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1658260768659817, "dur":920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":13, "ts":1658260768660806, "dur":74787, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1658260768735622, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1658260768735632, "dur":35276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1658260768770928, "dur":103112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1658260768874047, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1658260768874058, "dur":1550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1658260768875629, "dur":23770, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1658260768899403, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1658260768899452, "dur":6082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1658260768905549, "dur":127441, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":13, "ts":1658260769032993, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1658260769032999, "dur":1706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":13, "ts":1658260769034714, "dur":79373, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1658260768642379, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1658260768642379, "dur":3312, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1658260768645692, "dur":13440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1658260768659140, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1658260768659203, "dur":934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1658260768660266, "dur":17928, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1658260768678203, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1658260768678251, "dur":58166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1658260768736434, "dur":16130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1658260768752570, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1658260768752581, "dur":20129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1658260768772736, "dur":38284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1658260768811024, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1658260768811031, "dur":948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1658260768811995, "dur":41779, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1658260768853778, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1658260768853786, "dur":783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1658260768854581, "dur":50436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":14, "ts":1658260768905021, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1658260768905028, "dur":712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":14, "ts":1658260768905750, "dur":116424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":14, "ts":1658260769022177, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1658260769022184, "dur":2000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":14, "ts":1658260769024193, "dur":89897, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1658260768642398, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1658260768642399, "dur":3281, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1658260768645681, "dur":549, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":15, "ts":1658260768646232, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1658260768648036, "dur":11919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":15, "ts":1658260768660012, "dur":75840, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1658260768735856, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1658260768735863, "dur":35616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1658260768771493, "dur":55048, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1658260768826549, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1658260768826562, "dur":1498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1658260768828074, "dur":48291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1658260768876369, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1658260768876376, "dur":565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1658260768876952, "dur":83312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":15, "ts":1658260768960270, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1658260768960280, "dur":732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":15, "ts":1658260768961023, "dur":153043, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1658260768642422, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1658260768642422, "dur":3268, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1658260768645690, "dur":288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1658260768645981, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1658260768648085, "dur":9899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1658260768658027, "dur":77402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1658260768735435, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1658260768735446, "dur":36763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1658260768772228, "dur":88766, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1658260768861002, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1658260768861015, "dur":1522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1658260768862552, "dur":23931, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":16, "ts":1658260768886491, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1658260768886505, "dur":851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":16, "ts":1658260768887369, "dur":82981, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":16, "ts":1658260768970356, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1658260768970396, "dur":873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":16, "ts":1658260768971282, "dur":142798, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1658260768642451, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1658260768642451, "dur":3235, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1658260768645689, "dur":1362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":17, "ts":1658260768647054, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1658260768648363, "dur":10912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":17, "ts":1658260768659336, "dur":76373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1658260768735713, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1658260768735721, "dur":36538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1658260768772275, "dur":54266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1658260768826549, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1658260768826563, "dur":1617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1658260768828193, "dur":28646, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1658260768856843, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1658260768856868, "dur":492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1658260768857371, "dur":4139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":17, "ts":1658260768861516, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1658260768861526, "dur":877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":17, "ts":1658260768862419, "dur":42454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":17, "ts":1658260768904878, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1658260768904884, "dur":1478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":17, "ts":1658260768906374, "dur":28607, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":17, "ts":1658260768935020, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1658260768935033, "dur":770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":17, "ts":1658260768935814, "dur":139464, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":17, "ts":1658260769075281, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1658260769075288, "dur":606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":17, "ts":1658260769075901, "dur":38150, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1658260768642471, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1658260768642471, "dur":3234, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1658260768645705, "dur":92159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":18, "ts":1658260768737868, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1658260768737874, "dur":34285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":18, "ts":1658260768772545, "dur":38753, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1658260768811302, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1658260768811486, "dur":1058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1658260768812556, "dur":26302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1658260768838862, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1658260768838870, "dur":543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1658260768839423, "dur":30019, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1658260768869446, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1658260768869454, "dur":1066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1658260768870531, "dur":3885, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":18, "ts":1658260768874422, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1658260768874433, "dur":1326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":18, "ts":1658260768875772, "dur":21588, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":18, "ts":1658260768897367, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1658260768897380, "dur":800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":18, "ts":1658260768898197, "dur":78253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":18, "ts":1658260768976456, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1658260768976468, "dur":802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":18, "ts":1658260768977282, "dur":136789, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1658260768642492, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1658260768642492, "dur":3206, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1658260768645698, "dur":1611, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":19, "ts":1658260768647312, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1658260768647668, "dur":5090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":19, "ts":1658260768652821, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":19, "ts":1658260768652935, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1658260768653076, "dur":88028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":19, "ts":1658260768741187, "dur":22748, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1658260768763941, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1658260768763951, "dur":8976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1658260768772956, "dur":23676, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1658260768796642, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1658260768796656, "dur":888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1658260768797558, "dur":46042, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1658260768843608, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1658260768843621, "dur":814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1658260768844446, "dur":46234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1658260768890692, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1658260768890698, "dur":1340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1658260768892051, "dur":58285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":19, "ts":1658260768950358, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1658260768950365, "dur":563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":19, "ts":1658260768950938, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":19, "ts":1658260768950951, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1658260768950956, "dur":719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":19, "ts":1658260768951688, "dur":162361, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1658260768642517, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1658260768642517, "dur":3172, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1658260768645697, "dur":14281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":20, "ts":1658260768660006, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1658260768660024, "dur":947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":20, "ts":1658260768661035, "dur":74714, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1658260768735753, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1658260768735758, "dur":37367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1658260768773144, "dur":75250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1658260768848398, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1658260768848405, "dur":511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1658260768848927, "dur":101576, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":20, "ts":1658260768950507, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1658260768950513, "dur":685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":20, "ts":1658260768951210, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":20, "ts":1658260768951224, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1658260768951228, "dur":743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":20, "ts":1658260768951983, "dur":162064, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1658260768642556, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1658260768642556, "dur":3144, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1658260768645701, "dur":89940, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":21, "ts":1658260768735646, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1658260768735821, "dur":42746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":21, "ts":1658260768778646, "dur":64670, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1658260768843319, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1658260768843326, "dur":801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1658260768844137, "dur":101193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1658260768945334, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1658260768945341, "dur":2029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1658260768947381, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":21, "ts":1658260768947394, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1658260768947399, "dur":1562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":21, "ts":1658260768948974, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/resources.assets" }}
+,{ "pid":12345, "tid":21, "ts":1658260768948987, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1658260768948991, "dur":864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/resources.assets" }}
+,{ "pid":12345, "tid":21, "ts":1658260768949867, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/level0.resS" }}
+,{ "pid":12345, "tid":21, "ts":1658260768949880, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1658260768949885, "dur":713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/level0.resS" }}
+,{ "pid":12345, "tid":21, "ts":1658260768950611, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/level0" }}
+,{ "pid":12345, "tid":21, "ts":1658260768950628, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1658260768950632, "dur":924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/level0" }}
+,{ "pid":12345, "tid":21, "ts":1658260768951569, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/boot.config" }}
+,{ "pid":12345, "tid":21, "ts":1658260768951648, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1658260768951653, "dur":545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/boot.config" }}
+,{ "pid":12345, "tid":21, "ts":1658260768952215, "dur":161842, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1658260768642570, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1658260768642571, "dur":3122, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1658260768645694, "dur":915, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":22, "ts":1658260768646611, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1658260768648063, "dur":203173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":22, "ts":1658260768851294, "dur":66133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":22, "ts":1658260768917433, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1658260768917444, "dur":1396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":22, "ts":1658260768918855, "dur":81462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":22, "ts":1658260769000322, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1658260769000333, "dur":727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":22, "ts":1658260769001071, "dur":113013, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1658260768642589, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1658260768642590, "dur":3116, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1658260768645706, "dur":27855, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project.exe" }}
+,{ "pid":12345, "tid":23, "ts":1658260768673569, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1658260768673580, "dur":63277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project.exe" }}
+,{ "pid":12345, "tid":23, "ts":1658260768736885, "dur":15486, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1658260768752378, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1658260768752391, "dur":20794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1658260768773200, "dur":42446, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1658260768815650, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1658260768815659, "dur":713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1658260768816383, "dur":26181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1658260768842568, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1658260768842575, "dur":514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1658260768843101, "dur":19946, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1658260768863051, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1658260768863058, "dur":571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1658260768863641, "dur":37706, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":23, "ts":1658260768901350, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1658260768901358, "dur":772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":23, "ts":1658260768902140, "dur":132641, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":23, "ts":1658260769034787, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1658260769034797, "dur":968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":23, "ts":1658260769035774, "dur":78320, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1658260768642616, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1658260768642616, "dur":3053, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1658260768645673, "dur":326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":24, "ts":1658260768646004, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1658260768648040, "dur":14244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":24, "ts":1658260768662350, "dur":73064, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1658260768735424, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1658260768735437, "dur":35795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1658260768771259, "dur":117281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":24, "ts":1658260768888547, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1658260768888558, "dur":1007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":24, "ts":1658260768889578, "dur":116843, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":24, "ts":1658260769006425, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1658260769006434, "dur":796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Uni Stuff/3rd Year/Disso Planning/ProjectFiles/Build/Tobias_CCTP_Project_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":24, "ts":1658260769007242, "dur":106855, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658260769116694, "dur":1743, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1658260769138247, "dur": 492, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1658260769138034, "dur": 720, "ph": "X", "name": "Write chrome-trace events", "args": {} },
